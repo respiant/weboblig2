@@ -6,3 +6,5 @@ Vi har i Oblig 2 (Webutvikling) bestemt oss for å lage en nettbutikk for bildel
 
 Besvarelser av oppgaver finner du i oblig2.pdf
 Det vi har skrevet av kode så langt finner du i "webfiler" mappen.
+
+DEMO: http://www.it-stud.hiof.no/~olemte/weboblig2/
