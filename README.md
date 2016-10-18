@@ -7,7 +7,7 @@ Vi har i Oblig 2 (Webutvikling) bestemt oss for å lage en nettbutikk for bildel
 Selve webfilene ligger kun i mappen "webfiler", alt annet av skisser og div. til planlegging er i andre mapper.
 
 respiant: Ole Martin Tellefsen<br>
-BioExe: Marius Jakobsen Ekerbakke
-andrp: Andreas Pettersen
+BioExe: Marius Jakobsen Ekerbakke<br>
+andrp: Andreas Pettersen<br>
 
 DEMO: http://www.it-stud.hiof.no/~olemte/weboblig2/
