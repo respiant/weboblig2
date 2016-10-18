@@ -43,7 +43,7 @@
 					<li id="hjem"><a class="active" href="index.php">Hjem</a></li>
 					<li id="karosseri"><a href="index.php?k=karosseri">Karosserideler</a></li>
 					<li id="motor"><a href="index.php?k=motor">Motordeler</a></li>
-					<li id="diverse"><a href="index.php?k=tilbehor">Diverse</a></li>
+					<li id="diverse"><a href="index.php?k=diverse">Diverse</a></li>
 					<li id="omoss"><a href="index.php?p=omoss">Om oss</a></li>
 
 					<!-- La dette være sist -->
