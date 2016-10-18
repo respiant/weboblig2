@@ -173,6 +173,11 @@ footer {
 	width:100%;
 	height:150px;
 	}
+	
+	.ref{
+	color: #000000;
+	text-decoration:none;
+	}
 
 	body {
 		font-size: 90%;
