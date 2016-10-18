@@ -2,6 +2,7 @@
 /* Sett sammen padding, margin og width til å sammen bli width for alle HTML elementer */
 * {
 	box-sizing: border-box;
+	max-width: 100%;
 }
 
 .row::after {
