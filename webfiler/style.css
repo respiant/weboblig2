@@ -144,10 +144,11 @@ header {
 
 #content_top {
 	text-align: center;
-	font-size: 110%;
+	font-size: 130%;
 	border-bottom: 1px dotted #333;
 	margin-bottom: 10px;
 	padding: 5px;
+	font-weight: bold;
 }
 
 footer {
@@ -289,8 +290,8 @@ footer {
 	}
 
 	#content_top {
+		font-size: 150%;
 		text-align: center;
-		font-size: 110%;
 		border-bottom: 1px dotted #333;
 		margin-bottom: 10px;
 		padding: 5px;
