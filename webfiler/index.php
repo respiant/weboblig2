@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<script src="script.js"></script>
 
-	<title>MOA AS - 
+	<title>MOA Bil - 
 	<?php
 		if (isset($_GET['uk']))
 			echo ucfirst($_GET['uk']);
@@ -30,10 +30,10 @@
 			</div>
 
 			<div id="checkout_list" class="col-4">
-				Handleliste
+				<?php include 'pages/header_info.html'; ?>
 			</div>
 			<div id="checkout_list_phone" class="col-4">
-				<a href="">Handleliste</a>
+				<?php include 'pages/header_info.html'; ?>
 			</div>
 		</header>
 

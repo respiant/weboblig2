@@ -2,7 +2,7 @@
 /* Sett sammen padding, margin og width til å sammen bli width for alle HTML elementer */
 * {
 	box-sizing: border-box;
-	max-width: 100%;
+	max-width: 100%; /*Hindre at noen elementer blir for lange!*/
 }
 
 .row::after {
@@ -94,7 +94,10 @@ header {
 	display: none;
 }
 
-#checkout_list_phone {display: block;}
+#checkout_list_phone {
+	display: block;
+	font-size: 50%;
+}
 #checkout_list {display: none;}
 
 #main_nav {
@@ -123,10 +126,20 @@ header {
 
 #content {
 	background-color: rgba(255, 255, 255, 0.6);
-	padding: 0;
+	padding: 5px;
 	margin: 0;
 	height: 100%;
 	border: 1px solid white;
+}
+
+#content img {
+	width: 25%;
+	height: 25%;
+	transition: opacity 250ms;
+}
+
+#content img:hover {
+	opacity: 0.8;
 }
 
 #content_top {
@@ -268,6 +281,11 @@ footer {
 		padding: 25px;
 		height: 100%;
 		border: 1px solid white;
+	}
+
+	#content img {
+		width: 100%;
+		height: 100%;
 	}
 
 	#content_top {
