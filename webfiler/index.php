@@ -6,6 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<script src="script.js"></script>
+
+	<title>MOA AS - 
+	<?php
+		if (isset($_GET['uk']))
+			echo ucfirst($_GET['uk']);
+		else if (isset($_GET['k']))
+			echo ucfirst($_GET['k']);
+		else if (isset($_GET['p']))
+			echo ucfirst($_GET['p']);
+		else
+			echo "Hjem";
+	?>
+	</title>
+
 </head>
 <body>
 	<!-- Structure -->
@@ -41,7 +55,7 @@
 		</div>
 
 		<main class="row">
-			<nav id="side_nav" class="col-3">
+			<nav id="side_nav" class="col-2">
 				<!--
 				Bruker PHP For å hente inn andre html filer slik at innholdet havner akkurat her i taggen "<section id="content>".
 
@@ -63,7 +77,7 @@
 				?>
 			</nav>
 
-			<section id="content" class="col-9">
+			<section id="content" class="col-10"> 
 
 
 				<!--
@@ -78,14 +92,16 @@
 				<?php
 					$page_path = "pages/";
 					$product_path = $page_path."produkter/";
-					$uk_path = $page_path."kategorier/".$_GET['k']."/";
+					$uk_path = "";
+					if (isset($_GET['k']))
+						$uk_path = $page_path."kategorier/".$_GET['k']."/";
 					$file_ext = ".html";
 
 					if (isset($_GET["product_id"])){
 						echo ucfirst($_GET["product_id"]).'</p>';
 						include $product_path.$_GET["product_id"].$file_ext;
 					} else if (isset($_GET["k"]) && isset($_GET["uk"])){
-						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>';
+						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>'; 
 						include $uk_path.$_GET["uk"].$file_ext;
 					} else if (isset($_GET["k"])){
 						echo 'Velg underkategori</p>';
