@@ -156,6 +156,15 @@ footer {
 	color: #ddd;
 }
 
+q {
+	font-style: italic;
+}
+
+.small_img {
+	max-width: 250px;
+	max-height: 250px;
+}
+
 
 
 /* Bigger sizes (PC) */
