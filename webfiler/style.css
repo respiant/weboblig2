@@ -227,6 +227,15 @@ q {
 		text-align:center;
 	}
 
+	.storrelse{
+		font-size: 20px;
+	}
+
+.pris{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 	body {
 		font-size: 100%;
 	}
@@ -378,4 +387,3 @@ q {
 	#content_top {
 		font-size: 200%;
 	}
-}
