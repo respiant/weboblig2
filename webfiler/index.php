@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<script src="script.js"></script>
 
-	<title>MOA Bil - 
+	<title>MOA Bil -
 	<?php
 		if (isset($_GET['uk']))
 			echo ucfirst($_GET['uk']);
@@ -26,7 +26,7 @@
 	<div id="container">
 		<header class="row">
 			<div id="logo" class="col-8">
-				<img src="images/logo.png"/>
+				<img src="images/logo.png" alt="Bilde av logo"/>
 			</div>
 
 			<div id="checkout_list" class="col-4">
@@ -77,7 +77,7 @@
 				?>
 			</nav>
 
-			<section id="content" class="col-10"> 
+			<section id="content" class="col-10">
 
 
 				<!--
@@ -101,7 +101,7 @@
 						echo ucfirst($_GET["product_id"]).'</p>';
 						include $product_path.$_GET["product_id"].$file_ext;
 					} else if (isset($_GET["k"]) && isset($_GET["uk"])){
-						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>'; 
+						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>';
 						include $uk_path.$_GET["uk"].$file_ext;
 					} else if (isset($_GET["k"])){
 						echo 'Velg underkategori</p>';
