@@ -7,9 +7,9 @@
   <p>Selve webfilene ligger kun i mappen "webfiler", alt annet av skisser og div. til planlegging er i andre mapper.</p>
 </div>
 
-<p>respiant: Ole Martin Tellefsen</p>
-<p>BioExe: Marius Jakobsen Ekerbakke</p>
-<p>andrp: Andreas Pettersen</p><br />
+<p><b>respiant: Ole Martin Tellefsen</b></p>
+<p><b>BioExe: Marius Jakobsen Ekerbakke</b></p>
+<p><b>andrp: Andreas Pettersen</b></p><br />
 
 <b>Info om prosjektet</b> 
 <ul>
