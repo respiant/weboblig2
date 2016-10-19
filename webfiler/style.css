@@ -27,7 +27,7 @@ html {
 body {
 	color: #333;
 	background-color: #3377AA;
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility !important;
@@ -56,7 +56,7 @@ ul.topnav {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a647f', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
 }
 ul.topnav li {float: left;}
-ul.topnav li:not(:first-child) {display: none;} 
+ul.topnav li:not(:first-child) {display: none;}
 
 ul.topnav li.icon {
 	float: right;
@@ -179,10 +179,13 @@ q {
 	max-width: 25em;
 	max-height: 25em;
 }
+.smaller_img{
+	max-width: 3em;
+	max-height: 3em;
+}
 
 
-
-/* 
+/*
 	Store størrelser, alene utgjør maks størrelse
 	Fra 600px til MAX
 
@@ -212,13 +215,13 @@ q {
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-	
+
 	.img {
 		margin: 2%;
 		width: 100%;
 		height: 150px;
 	}
-	
+
 	.ref{
 		color: #000000;
 		text-decoration:none;
@@ -241,7 +244,7 @@ q {
 		display: none;
 	}
 
-	ul.topnav li:not(:first-child) {display: block;} 
+	ul.topnav li:not(:first-child) {display: block;}
 
 
 	ul.topnav {
@@ -377,4 +380,3 @@ q {
 		font-size: 200%;
 	}
 }
-
