@@ -27,7 +27,7 @@
 	<div id="container">
 		<header class="row">
 			<div id="logo" class="col-8">
-				<img src="images/logo.png"/ alt="logo">
+				<img src="images/logo.png" alt="logo">
 			</div>
 			<div id="checkout_list" class="col-4">
 				<?php include 'pages/header_info.html'; ?>
