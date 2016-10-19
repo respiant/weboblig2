@@ -5,9 +5,10 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="test.xml" type="application/rss+xml" rel="alternate" title="Carthrottle" />
 	<script src="script.js"></script>
 
-	<title>MOA Bil - 
+	<title>MOA Bil -
 	<?php
 		if (isset($_GET['uk']))
 			echo ucfirst($_GET['uk']);
@@ -77,7 +78,7 @@
 				?>
 			</nav>
 
-			<section id="content" class="col-10"> 
+			<section id="content" class="col-10">
 
 
 				<!--
@@ -101,7 +102,7 @@
 						echo ucfirst($_GET["product_id"]).'</p>';
 						include $product_path.$_GET["product_id"].$file_ext;
 					} else if (isset($_GET["k"]) && isset($_GET["uk"])){
-						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>'; 
+						echo ucfirst($_GET["k"])." → ".ucfirst($_GET["uk"]).'</p>';
 						include $uk_path.$_GET["uk"].$file_ext;
 					} else if (isset($_GET["k"])){
 						echo 'Velg underkategori</p>';
