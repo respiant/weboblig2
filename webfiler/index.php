@@ -29,13 +29,13 @@
 			<div id="logo" class="col-8">
 				<img src="images/logo.png"/>
 			</div>
-
 			<div id="checkout_list" class="col-4">
 				<?php include 'pages/header_info.html'; ?>
 			</div>
 			<div id="checkout_list_phone" class="col-4">
 				<?php include 'pages/header_info.html'; ?>
 			</div>
+
 		</header>
 
 		<div class="row">
