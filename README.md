@@ -18,4 +18,4 @@
   <li></li>
 </ul>
 <br />
-<p>DEMO (Oppdateres før innlevering): <a href="http://www.it-stud.hiof.no/~olemte/weboblig2/">LINK TIL DEMO</a></p>
+<p>DEMO (Oppdateres før innlevering): <a href="http://www.it-stud.hiof.no/~olemte/weboblig2/">TRYKK HER</a></p>
