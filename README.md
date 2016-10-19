@@ -2,11 +2,11 @@
 
 <div style="margin: 10px 0; padding-left: 50px; font-size: 90%; font-style: italic;">
   <p>Dette er en oblig for <b>Andreas Pettersen</b>, <b>Marius Ekerbakke</b> og <b>Ole Martin Tellefsen</b>.</p>
-  <p>Vi har i Oblig 2 (Webutvikling) bestemt oss for å lage en nettbutikk for bildeler.</p><br />
-
+  <p>Vi har i Oblig 2 (Webutvikling) bestemt oss for å lage en nettbutikk for bildeler.</p>
   <p>Selve webfilene ligger kun i mappen "webfiler", alt annet av skisser og div. til planlegging er i andre mapper.</p>
 </div>
 
+<br />
 <p><b>respiant</b>: Ole Martin Tellefsen</p>
 <p><b>BioExe</b>: Marius Jakobsen Ekerbakke</p>
 <p><b>andrp</b>: Andreas Pettersen</p><br />
