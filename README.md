@@ -7,13 +7,14 @@
   <p>Selve webfilene ligger kun i mappen "webfiler", alt annet av skisser og div. til planlegging er i andre mapper.</p>
 </div>
 
-<p>piant: Ole Martin Tellefsen</p>
-<p>Exe: Marius Jakobsen Ekerbakke</p>
+<p>respiant: Ole Martin Tellefsen</p>
+<p>BioExe: Marius Jakobsen Ekerbakke</p>
 <p>andrp: Andreas Pettersen</p><br />
 
-<b>Om prosjektet</b> 
+<b>Info om prosjektet</b> 
 <ul>
-  <li></li>
+  <li>Byttet ut handleliste med betalingsinfo. Hadde vi brukt SQL og PHP til behandling av bestillingen ville handlelisten vært aktuell.</li>
+  <li>Bruker PHP til å hente inn HTML sider inn i index.php fila. Så hovedsaklig er det kun index.php fila som åpnes, men med argumenter (GET) til å navigere mellom kategorier, sider og produkter.</li>
   <li></li>
 </ul>
 
