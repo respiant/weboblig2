@@ -17,5 +17,5 @@
   <li>Bruker PHP til å hente inn HTML sider inn i index.php fila. Så hovedsaklig er det kun index.php fila som åpnes, men med argumenter (GET) til å navigere mellom kategorier, sider og produkter.</li>
   <li></li>
 </ul>
-
-DEMO: http://www.it-stud.hiof.no/~olemte/weboblig2/
+<br />
+<p>DEMO (Oppdateres før innlevering): <a href="http://www.it-stud.hiof.no/~olemte/weboblig2/">LINK TIL DEMO</a></p>
